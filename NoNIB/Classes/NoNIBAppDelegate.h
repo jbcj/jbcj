@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NoNIBAppDelegate : NSObject <UIApplicationDelegate> {
+@interface NoNIBAppDelegate : NSObject <UIApplicationDelegate, UITableViewDelegate, UITableViewDataSource> {
     UIWindow *window;
 	UINavigationController *navigationController;
 }

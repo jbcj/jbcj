@@ -56,10 +56,38 @@
 	UIViewController *yellowController = [[UIViewController alloc] init];
 	yellowController.view.backgroundColor = [UIColor yellowColor];
 	yellowController.title = @"Yellow View";
+	
+	UITableView *tableView = [[UITableView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]
+														  style:UITableViewStylePlain];
+    tableView.autoresizingMask = UIViewAutoresizingFlexibleHeight|UIViewAutoresizingFlexibleWidth;
+    tableView.delegate = self;
+    tableView.dataSource = self;
+    [tableView reloadData];
+	
+	[yellowController.view addSubview:tableView];
+	
+    [tableView release];
+	
 	[navigationController pushViewController:yellowController animated:YES];	
 }
 
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 3;
+}
 
+- (NSInteger)numberOfRowsInSection:(NSInteger *)section {
+  return 2;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    static NSString *MyIdentifier = @"MyIdentifier";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:MyIdentifier];
+    if (cell == nil) {
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:MyIdentifier] autorelease];
+    }
+    cell.textLabel.text = @"Foo";
+    return cell;
+}
 
 - (void)dealloc {
 	[window release];
