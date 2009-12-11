@@ -83,10 +83,44 @@
     static NSString *MyIdentifier = @"MyIdentifier";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:MyIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:MyIdentifier] autorelease];
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:MyIdentifier] autorelease];
     }
-    cell.textLabel.text = @"Foo";
+	
+	switch(indexPath.row) {
+		case 0:
+			cell.textLabel.text = @"Orange";
+			break;
+		case 1:
+			cell.textLabel.text = @"Purple";
+			break;
+		case 2:
+			cell.textLabel.text = @"Brown";
+			break;
+	}
+	
+	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
+}
+
+- (NSIndexPath *)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+	if (indexPath.row == 0) {
+		UIViewController *orangeController = [[UIViewController alloc] init];
+		orangeController.view.backgroundColor = [UIColor orangeColor];
+		orangeController.title = @"Orange View";
+		[navigationController pushViewController:orangeController animated:YES];
+	}
+	if (indexPath.row == 1) {
+		UIViewController *purpleController = [[UIViewController alloc] init];
+		purpleController.view.backgroundColor = [UIColor purpleColor];
+		purpleController.title = @"Purple View";
+		[navigationController pushViewController:purpleController animated:YES];
+	}
+	if (indexPath.row == 2) {
+		UIViewController *brownController = [[UIViewController alloc] init];
+		brownController.view.backgroundColor = [UIColor brownColor];
+		brownController.title = @"Brown View";
+		[navigationController pushViewController:brownController animated:YES];
+	}
 }
 
 - (void)dealloc {
