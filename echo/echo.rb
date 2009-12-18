@@ -5,5 +5,5 @@ require 'sinatra'
 set :port, 9000
 
 get '*' do
- "hi"
+ "#{Time.now.to_s}\n"
 end

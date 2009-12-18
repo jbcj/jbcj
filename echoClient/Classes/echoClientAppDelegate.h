@@ -10,9 +10,10 @@
 
 @interface echoClientAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
+	UITextView *text;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-
+@property (nonatomic, retain) UITextView *text;
 @end
 
