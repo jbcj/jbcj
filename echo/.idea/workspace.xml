@@ -2,6 +2,7 @@
 <project relativePaths="false" version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/echo.rb" />
     </list>
     <ignored path=".idea/workspace.xml" />
@@ -23,7 +24,7 @@
       <file leaf-file-name="echo.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/echo.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="0.17897727">
+            <state line="7" column="5" selection-start="87" selection-end="87" vertical-scroll-proportion="0.13920455">
               <folding />
             </state>
           </provider>
@@ -205,7 +206,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/echo.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="0.17897727">
+        <state line="7" column="5" selection-start="87" selection-end="87" vertical-scroll-proportion="0.13920455">
           <folding />
         </state>
       </provider>

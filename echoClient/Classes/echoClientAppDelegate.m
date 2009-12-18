@@ -12,13 +12,23 @@
 
 @synthesize window;
 
-
 - (void)applicationDidFinishLaunching:(UIApplication *)application {    
-
-    // Override point for customization after application launch
-    [window makeKeyAndVisible];
+	window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+	window.backgroundColor = [UIColor redColor];
+	
+	UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+	button.frame = CGRectMake(100, 200, 100, 50);
+	//	button.backgroundColor = [UIColor yellowColor];
+	[button setTitle:@"Push Me!" forState:UIControlStateNormal];
+	[button addTarget:self action:@selector(buttonPressed) forControlEvents:UIControlEventTouchUpInside];
+	
+	[window addSubview:button];
+	
+	[window makeKeyAndVisible];
 }
 
+- (void)buttonPressed {
+}
 
 - (void)dealloc {
     [window release];

@@ -11,8 +11,8 @@
 	1D3623250D0F684500981E51 /* NoNIBAppDelegate.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1097, 2622}}";
-			sepNavSelRange = "{3742, 0}";
-			sepNavVisRange = "{2731, 1638}";
+			sepNavSelRange = "{463, 0}";
+			sepNavVisRange = "{228, 1840}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* NoNIB */ = {
@@ -69,17 +69,17 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 282800179;
-			PBXWorkspaceStateSaveDate = 282800179;
+			PBXPerProjectTemplateStateSaveDate = 282804047;
+			PBXWorkspaceStateSaveDate = 282804047;
 		};
 		perUserProjectItems = {
-			AEAA51E710D1FF60001BEF7D /* PBXTextBookmark */ = AEAA51E710D1FF60001BEF7D /* PBXTextBookmark */;
-			AEAA51EA10D1FF60001BEF7D /* PBXTextBookmark */ = AEAA51EA10D1FF60001BEF7D /* PBXTextBookmark */;
-			AEAA51EB10D1FF60001BEF7D /* PBXTextBookmark */ = AEAA51EB10D1FF60001BEF7D /* PBXTextBookmark */;
-			AEAA51ED10D1FF60001BEF7D /* PBXTextBookmark */ = AEAA51ED10D1FF60001BEF7D /* PBXTextBookmark */;
-			AEAA521410D1FFE2001BEF7D /* PBXTextBookmark */ = AEAA521410D1FFE2001BEF7D /* PBXTextBookmark */;
-			AEAA527310D20E47001BEF7D /* PBXTextBookmark */ = AEAA527310D20E47001BEF7D /* PBXTextBookmark */;
-			AECB61B910DB33490092BED8 /* PBXTextBookmark */ = AECB61B910DB33490092BED8 /* PBXTextBookmark */;
+			AEAA51E710D1FF60001BEF7D = AEAA51E710D1FF60001BEF7D /* PBXTextBookmark */;
+			AEAA51EA10D1FF60001BEF7D = AEAA51EA10D1FF60001BEF7D /* PBXTextBookmark */;
+			AEAA51EB10D1FF60001BEF7D = AEAA51EB10D1FF60001BEF7D /* PBXTextBookmark */;
+			AEAA51ED10D1FF60001BEF7D = AEAA51ED10D1FF60001BEF7D /* PBXTextBookmark */;
+			AEAA521410D1FFE2001BEF7D = AEAA521410D1FFE2001BEF7D /* PBXTextBookmark */;
+			AEAA527310D20E47001BEF7D = AEAA527310D20E47001BEF7D /* PBXTextBookmark */;
+			AECB61B910DB33490092BED8 = AECB61B910DB33490092BED8 /* PBXTextBookmark */;
 		};
 		sourceControlManager = AEAA51BC10D1EA39001BEF7D /* Source Control */;
 		userBuildSettings = {
@@ -87,7 +87,7 @@
 	};
 	29B97316FDCFA39411CA2CEA /* main.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {631, 854}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1097, 857}}";
 			sepNavSelRange = "{322, 0}";
 			sepNavVisRange = "{0, 366}";
 		};
