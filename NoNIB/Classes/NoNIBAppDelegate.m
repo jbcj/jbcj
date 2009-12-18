@@ -7,6 +7,7 @@
 //
 
 #import "NoNIBAppDelegate.h"
+#include <HTTPRiot/HTTPRiot.h>
 
 @implementation NoNIBAppDelegate
 
@@ -107,6 +108,10 @@
 		UIViewController *orangeController = [[UIViewController alloc] init];
 		orangeController.view.backgroundColor = [UIColor orangeColor];
 		orangeController.title = @"Orange View";
+		
+		NSString *logoUrl = @"http://www.pivotallabs.com/images/pivotal.gif?1258156871";
+		
+		[[HTTPRiot
 		[navigationController pushViewController:orangeController animated:YES];
 	}
 	if (indexPath.row == 1) {

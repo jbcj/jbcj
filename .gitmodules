@@ -1,0 +1,6 @@
+[submodule "async-uitableview"]
+	path = async-uitableview
+	url = git://github.com/akosma/async-uitableview.git
+[submodule "asi-http-request"]
+	path = asi-http-request
+	url = git://github.com/pokeb/asi-http-request.git

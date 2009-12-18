@@ -197,48 +197,7 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>PBXProjectModuleGUID</key>
-				<string>AE08529010D014BC00D70EB7</string>
-				<key>PBXProjectModuleLabel</key>
-				<string>MovieViewController.h</string>
-				<key>PBXSplitModuleInNavigatorKey</key>
-				<dict>
-					<key>Split0</key>
-					<dict>
-						<key>PBXProjectModuleGUID</key>
-						<string>AE08529110D014BC00D70EB7</string>
-						<key>PBXProjectModuleLabel</key>
-						<string>MovieViewController.h</string>
-						<key>_historyCapacity</key>
-						<integer>0</integer>
-						<key>bookmark</key>
-						<string>AEAA51AA10D1E783001BEF7D</string>
-						<key>history</key>
-						<array>
-							<string>AE08529210D014BC00D70EB7</string>
-						</array>
-					</dict>
-					<key>SplitCount</key>
-					<string>1</string>
-				</dict>
-				<key>StatusBarVisibility</key>
-				<true/>
-			</dict>
-			<key>Geometry</key>
-			<dict>
-				<key>Frame</key>
-				<string>{{0, 20}, {750, 461}}</string>
-				<key>PBXModuleWindowStatusBarHidden2</key>
-				<false/>
-				<key>RubberWindowFrame</key>
-				<string>6 620 750 502 0 0 1920 1178 </string>
-			</dict>
-		</dict>
-	</array>
+	<array/>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>-1</integer>
@@ -313,7 +272,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>3</integer>
+									<integer>5</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -338,7 +297,7 @@
 							<real>272</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>647 55 1264 1123 0 0 1920 1178 </string>
+						<string>1934 -40 1264 1123 1920 -400 1200 1600 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -356,7 +315,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MovieAppDelegate.m</string>
+								<string>MovieViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -364,17 +323,17 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>MovieAppDelegate.m</string>
+										<string>MovieViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>AEAA51A910D1E783001BEF7D</string>
+										<string>AEAA527210D20E47001BEF7D</string>
 										<key>history</key>
 										<array>
-											<string>AE08527410D014BC00D70EB7</string>
-											<string>AE08527510D014BC00D70EB7</string>
-											<string>AEAA51A110D1E763001BEF7D</string>
-											<string>AEAA51A210D1E763001BEF7D</string>
+											<string>AEAA526210D20E47001BEF7D</string>
+											<string>AEAA526310D20E47001BEF7D</string>
+											<string>AEAA526410D20E47001BEF7D</string>
+											<string>AEAA526510D20E47001BEF7D</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -385,6 +344,16 @@
 											<string>AEAA51A310D1E763001BEF7D</string>
 											<string>AEAA51A410D1E763001BEF7D</string>
 											<string>AEAA51A510D1E763001BEF7D</string>
+											<string>AEAA526610D20E47001BEF7D</string>
+											<string>AEAA526710D20E47001BEF7D</string>
+											<string>AEAA526810D20E47001BEF7D</string>
+											<string>AEAA526910D20E47001BEF7D</string>
+											<string>AEAA526A10D20E47001BEF7D</string>
+											<string>AEAA526B10D20E47001BEF7D</string>
+											<string>AEAA526C10D20E47001BEF7D</string>
+											<string>AEAA526D10D20E47001BEF7D</string>
+											<string>AEAA526E10D20E47001BEF7D</string>
+											<string>AEAA526F10D20E47001BEF7D</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -398,7 +367,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {970, 951}}</string>
 								<key>RubberWindowFrame</key>
-								<string>647 55 1264 1123 0 0 1920 1178 </string>
+								<string>1934 -40 1264 1123 1920 -400 1200 1600 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -418,7 +387,7 @@
 								<key>Frame</key>
 								<string>{{0, 956}, {970, 126}}</string>
 								<key>RubberWindowFrame</key>
-								<string>647 55 1264 1123 0 0 1920 1178 </string>
+								<string>1934 -40 1264 1123 1920 -400 1200 1600 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -580,11 +549,10 @@
 	<array>
 		<string>AE4749DD10CF513200323FEB</string>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>AE08529010D014BC00D70EB7</string>
 		<string>/Users/pivotal/Documents/iPhone/Movie/Movie.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>647 55 1264 1123 0 0 1920 1178 </string>
+	<string>1934 -40 1264 1123 1920 -400 1200 1600 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
